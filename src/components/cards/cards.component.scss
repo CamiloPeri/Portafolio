@@ -1,0 +1,12 @@
+.cards-container {
+  padding-top: 3rem;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 3rem;
+  grid-auto-rows: 10rem;
+}
+
+.card-footer {
+   
+}

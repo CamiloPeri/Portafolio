@@ -1,0 +1,18 @@
+<div class="container-nav">
+  <nav id="header" class="container-nav--item-navigation">
+    <div class="container-nav--title-navbar"><h2>Camilo Soler</h2></div>
+
+    <ul class="container-nav--menu-navbar">
+      <img src="" alt="" />
+      <li [class]="item.class" *ngFor="let item of listMenu">
+        <a href="" class="text" [routerLink]="['/projects']">Projects</a>
+      </li>
+      <li class="container-nav--menu-navbar__items">
+        <a href="" class="text">Contact</a>
+      </li>
+      <li class="container-nav--menu-navbar__items">
+        <a href="" class="text">About</a>
+      </li>
+    </ul>
+  </nav>
+</div>

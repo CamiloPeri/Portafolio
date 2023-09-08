@@ -1,0 +1,8 @@
+<button
+  [ngClass]="[
+    buttonClass,
+    buttonClass + '--' + (disabled ? 'disabled' : color)
+  ]"
+  [disabled]="disabled"
+  [innerHTML]="text"
+></button>

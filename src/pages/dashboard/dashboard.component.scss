@@ -1,0 +1,9 @@
+$padd-7: 7rem;
+.content {
+  padding-top: $padd-7;
+  & section {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+  }
+}
